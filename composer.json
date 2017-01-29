@@ -1,4 +1,7 @@
 {
     "name": "yhoiseth/behat-quick-start",
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "behat/behat": "^3.3"
+    }
 }
