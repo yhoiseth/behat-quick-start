@@ -39,7 +39,7 @@ class FeatureContext implements Context
      */
     public function iAddTheToTheBasket($product)
     {
-        $this->basket->addProduct($product);
+        $this->basket->addProduct($product, $this->shelf->getProductPrice($product));
     }
 
     /**
